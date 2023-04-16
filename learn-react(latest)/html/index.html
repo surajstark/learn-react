@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Hello World!</h1>
+      <!-- using javascript to write hello world -->
+    </div>
+    <script>
+      // create h1 element wit js
+      const heading = document.createElement("h1");
+
+      // add text in h1 using javascript
+      heading.innerHTML = "Hello World from javascript";
+
+      // select element of html to inject js code in html document
+      const root = document.getElementById("root");
+
+      // append html element wjich is created with js in normal html document
+      root.appendChild(heading);
+    </script>
+  </body>
+</html>
